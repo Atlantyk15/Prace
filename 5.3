@@ -1,0 +1,15 @@
+let myWork = [];
+
+for (let i = 1; i <= 10; i++) {
+  
+    let status = (i % 2 === 0) ? true : false;
+    
+    let lekcja = {
+        name: 'Lekcja ' + i, 
+        status: status 
+    };
+
+    myWork.push(lekcja);
+}
+
+console.log(myWork);
